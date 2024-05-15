@@ -1,0 +1,59 @@
+body {
+    font-family: sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.nav_link {
+    color: cornflowerblue;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.title {
+    columns: #222;
+    font-size: 28px;
+    line-height: 36px;
+    font-weight: bold;
+}
+
+.subtitle {
+    font-style: normal;
+    line-height: 80px;
+    color: coral;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.text {
+    font-style: normal;
+    font-weight: 300;
+    color: #7D7987;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.about_photo {
+    border-radius: 10px;
+}
+
+.form_input {
+    width: 200px;
+    height: 30px;
+    outline: none;
+    border: 1px solid #ccc;
+    border-radius: 15px; 
+    font-size: 14px;
+    line-height: 30px;
+    font-family: sans-serif;
+}
+
+.form_button {
+    width: 120px;
+    height: 30px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
