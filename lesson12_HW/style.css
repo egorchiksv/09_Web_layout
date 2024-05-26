@@ -1,0 +1,191 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    font-family: "Lato", 
+    sans-serif;
+}
+
+.header {
+    background: #222222;
+    width: 1600px;
+    height: 75px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+}
+
+.header__left {
+    padding-left: 230px;
+    display: flex;
+    gap: 41px;
+    align-items: center;
+}
+
+.header__right {
+    padding-right: 240px;
+    display: flex;
+    gap: 33px;
+}
+
+.brand {
+    width: 1600px;
+    height: 764px;
+    display: flex;
+    align-items: center;
+    gap: 64px;
+    background: #F1E4E6;
+}
+
+.brand__img {
+    width: 801px;
+    height: 764px;
+}
+
+.brand__info {
+    width: 405px;
+    height: 93px;
+    display: flex;
+    flex-wrap: wrap;
+    border-left: 12px solid #F16D7F;
+    padding-left: 16px;
+}
+
+.brand_info_text {
+    font-size: 48px;
+}
+
+.brand_info_p {
+    font-size: 32px;
+    span {
+        color: #f16d7f;
+    }
+}
+
+.brand_info_p2 {
+    font-size: 32px;
+}
+
+.sale__box {
+    padding-left: 230px;
+    width: 1140px;
+    height: 470px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    padding-top: 64px;
+    padding-bottom: 96px;
+}
+
+.for__women {
+    position: relative;
+    text-align: center;
+}
+
+.for__men {
+    position: relative;
+    text-align: center;
+}
+
+.for__kids {
+    position: relative;
+    text-align: center;
+}
+
+.accesories {
+    position: relative;
+    text-align: center;
+}
+
+.accesories {
+    min-height: 180px;
+    grid-column: 1 / -1;
+}
+
+.sale {
+    color: #fff;;
+    font: 400;
+    font-size: 16px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    p {
+        color: #f16d7f;;
+        font: 700;
+        font-size: 24px;
+    }
+}
+
+.fetured__items {
+    padding-top: 96px;
+    margin-left: 230px;
+    width: 1140px;
+    height: 1395px;
+}
+
+.fetured_items_product {
+    margin-top: 44px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 360px);
+    gap: 30px;
+    justify-items: center;
+
+}
+
+.fetured_items_title {
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+}
+
+.fetured_items_title_text {
+    padding-top: 6px;
+    display: flex;
+    justify-content: center;
+    font-size: 14px;
+}
+
+.fetured_items_product_title {
+    padding-top: 24px;
+    font: 400;
+    font-size: 13px;
+}
+
+.fetured_items_product_text {
+    padding-top: 16px;
+    font: 300;
+    font-size: 14px;
+}
+
+.fetured_items_product_cost {
+    padding-top: 16px;
+    font-size: 13px;
+    font: 400;
+    font-size: 16px;
+    color: #f16d7f;
+}
+
+.all__product {
+    margin-top: 48px;
+    width: 212px;
+    height: 48px;
+    border: solid #f26376;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-column: 1 / -1;
+}
+
+.all_product_text {
+    color: #f26376;
+}
