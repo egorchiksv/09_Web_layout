@@ -1,0 +1,33 @@
+.carousel-indicators [data-bs-target] {
+    height: 30px;
+    border-radius: 50%;
+}
+
+.carousel-control-next-icon {
+    background-image: url(img/next.svg);
+}
+
+.carousel-control-prev-icon {
+    background-image: url(img/previw.svg);
+}
+
+.navbar {
+    background-color: #eee;
+    position: relative;
+}
+
+.navbar>.container, .navbar>.container-fluid, .navbar>.container-lg, .navbar>.container-md, .navbar>.container-sm, .navbar>.container-xl, .navbar>.container-xxl {
+    justify-content: flex-end;
+}
+
+.navbar-collapse {
+    position: absolute;
+    padding: 16px;
+    width: 150px;
+    background-color: #eee;
+    top: 54px;
+}
+
+.nav-item {
+    text-align: right;
+}
