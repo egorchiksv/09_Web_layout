@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Анализатор текста</title>
+    <style>
+        * {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            color: rgb(40, 40, 40);
+        }
+
+        #text {
+            width: 600px;
+            height: 200px;
+            display: block;
+            margin-bottom: 20px;
+        }
+
+        #result {
+            margin-top: 20px;
+        }
+
+        #reset-button {
+            margin-left: 20px;
+        }
+    </style>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link href="styles.css" rel="stylesheet">
+</head>
+
+<body>
+    <h1>Анализатор текста</h1>
+    <p class="fw-lighter">Введите текст в поле ниже, и система измерит и покажет его длину.</p>
+    <textarea class="form-control" id="text"></textarea>
+    <button class="btn btn-success" id="count-button" disabled="disabled">Посчитать</button>
+    <button class="btn btn-danger" id="reset-button" disabled="disabled">Очистить</button>
+    <div id="result"></div>
+</body>
+
+</html>
